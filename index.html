@@ -9,34 +9,32 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="css/index.css">
 </head>
 
-<body>f
+<body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
+			<div class = "header">
 				<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
-				
-
 				<!-- nav -->
-				<nav class="top-anchors">
-					<a href="menu.html">Menu</a>
-					<a href="#">Reservations</a>
-					<a href="#">Special Offers</a>
-					<a href="#">Contact</a>
-					
-				</nav>
+				<nav class="top-section">
+					<div class = "4-anchors">
+						<a href="menu.html">Menu</a>
+						<a href="#">Reservations</a>
+						<a href="#">Special Offers</a>
+						<a href="#">Contact</a>
+					</div>
 				
-				<nav class="social-media">
-					<a href=""><i class="fa-brands fa-facebook" title="Facebook">facebook</i></a>
-					<a href=""><i class="fa-brands fa-twitter" title="Twitter">twitter</i></a>
-					<a href=""><i class="fa-brands fa-instagram" title="Instagram">instagram</i></a>
-				</nav>
-
 				
+					<div class="social-media">
+						<a href=""><i class="fa-brands fa-facebook" title="facebook" name="facebook"></i></a>
+						<a href=""><i class="fa-brands fa-twitter" title="twitter" name="twitter"></i></a>
+						<a href=""><i class="fa-brands fa-instagram" title="instagram" name = "instagram"></i></a>
+					</div>
+				</nav>
 			</div>
 		</header>
 
@@ -140,9 +138,10 @@
 		<footer>
 			<!-- email signup -->
 			<form action="">
-				<h4>Join our mailing list!</h4>
-				<input type="email" id="email" name="email">
-				<input type="submit" name="signup" id="signup" value="Sign Up">
+				<label for="email">Join our mailing list!</label> 
+				<input placeholder="Email Address" type="email" id="email" name="email">
+				<button>Sign Up</button>
+				
 			</form>
 			<nav class="bottom-anchors">
 					<a href="menu.html">Menu</a>
